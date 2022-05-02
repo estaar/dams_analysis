@@ -70,4 +70,10 @@ fig.update_xaxes(title_text='Distance Across River Valley (M)', row=3, col=1)
 fig.update_yaxes(title_text='Elevation(M)', row=3, col=1)
 
 
+# Update and Save the figure
+fig.update_layout(height=2000)
+fig.update_layout(showlegend=False)
+fig.write_html('River Profiles.html')
+
+
 
